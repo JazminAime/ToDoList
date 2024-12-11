@@ -1,9 +1,15 @@
-//import { useState } from "react";
+import Footer from "./components/Footer";
+import TodoList from "./components/TodoList";
+import ToggleColorMode from "./components/ToggleColorMode";
 
 function App() {
-  //const [count, setCount] = useState(0);
-
-  return <div></div>;
+  return (
+    <div>
+      <ToggleColorMode />
+      <TodoList />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
